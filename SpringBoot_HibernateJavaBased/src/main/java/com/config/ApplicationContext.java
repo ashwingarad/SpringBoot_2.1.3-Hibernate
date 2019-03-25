@@ -25,7 +25,6 @@ public class ApplicationContext {
 		try {
 			rt.exec("rundll32 url.dll,FileProtocolHandler " + "http://localhost:8095/index.html");
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
